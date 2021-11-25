@@ -28,8 +28,8 @@ router.get('',(req, res)=>{
             res.render(
                 'pages/index', 
                 { 
-                    title: 'MySQL Products', 
-                    heading: 'MySQL Products',
+                    title: 'Products List', 
+                    heading: 'Products List',
                     data: rows,
                     category: category,
                     moment: moment,
